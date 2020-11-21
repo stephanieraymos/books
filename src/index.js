@@ -5,10 +5,21 @@ import ReactDom from 'react-dom';
 function Greeting() {
   return (
     <div>
-      <h4>Tutorial Project</h4>
+      <Person />
+      <Message />
     </div>
   )
 }
+
+const Person = () => {
+  return <h4>Stephanie Raymos</h4>
+}
+
+const Message = () => {
+  return <p>Some text</p>
+
+}
+
 
 
 
