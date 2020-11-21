@@ -6,6 +6,19 @@ function Booklist() {
   return (
     <section>
       <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
     </section>
   )
 }
