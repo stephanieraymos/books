@@ -2,25 +2,16 @@ import React from 'react';
 import ReactDom from 'react-dom';
 
 
-function Greeting() {
+function Booklist() {
   return (
-    <div>
-      <Person />
-      <Message />
-    </div>
+    <section>
+      <p>Book List</p>
+    </section>
   )
 }
 
-const Person = () => {
-  return <h4>Stephanie Raymos</h4>
-}
-
-const Message = () => {
-  return <p>Some text</p>
-
-}
 
 
 
 
-ReactDom.render(<Greeting />, document.getElementById('root'))
+ReactDom.render(<Booklist />, document.getElementById('root'))
