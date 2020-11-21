@@ -13,6 +13,7 @@ function Booklist() {
 const Book = () => {
   return <article>
     <Title />
+    By: <Author />
     <Image />
   </article>
 }
@@ -22,6 +23,8 @@ const Image = () => {
 }
 
 const Title = () => <h1>If Animals Kissed Good Night</h1>
+const Author = () => <h1>Ann WhitFord Paul</h1>
+
 
 
 
