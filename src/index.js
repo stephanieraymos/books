@@ -4,8 +4,12 @@ import ReactDom from 'react-dom';
 
 function Greeting() {
   return (
-    <h4>Tutorial Project</h4>
+    <div>
+      <h4>Tutorial Project</h4>
+    </div>
   )
 }
 
-ReactDom.render(<Greeting/>, document.getElementById('root'))
+
+
+ReactDom.render(<Greeting />, document.getElementById('root'))
