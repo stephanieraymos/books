@@ -36,7 +36,7 @@ const Image = () => {
 }
 
 const Title = () => <h1>If Animals Kissed Good Night</h1>
-const Author = () => <h1 style={{ color: '#617d98', fontSize: '0.75rem', margin: '0.20rem' }}>By: Ann WhitFord Paul</h1>
+const Author = () => <h1 style={{ color: '#617d98', fontSize: '0.75rem', margin: '0.25rem' }}>By: Ann WhitFord Paul</h1>
 
 
 
