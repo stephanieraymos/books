@@ -24,7 +24,7 @@ function Booklist() {
 }
 
 const Book = () => {
-  return <article>
+  return <article className="book">
     <Title />
     By: <Author />
     <Image />
