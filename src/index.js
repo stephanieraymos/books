@@ -27,7 +27,9 @@ function Booklist() {
   );
 }
 
-const Book = ({img, title, author, description}) => {
+const Book = (props) => {
+  const {img, title, author, description} = props.book;
+  
   return (
     <article className="book">
       <img src={img} alt='' />
