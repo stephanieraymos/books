@@ -11,6 +11,7 @@ function Booklist() {
 }
 
 const Book = () => {
+  const title = 'If Animals Kissed Good Night'
   return (
     <article className="book">
       <img src="https://images-na.ssl-images-amazon.com/images/I/817T4J3dzhL._AC_UL200_SR200,200_.jpg" alt="" />
