@@ -23,7 +23,6 @@ const Book = () => {
       <img src={img} alt='' />
       <h1>{title}</h1>
       <h4>By: {author}</h4>
-      <p></p>
     </article>
   );
 };
