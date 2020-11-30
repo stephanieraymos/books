@@ -20,7 +20,7 @@ books = [
 function Booklist() {
   return (
     <section className="booklist">
-      {books.map((book)) => {
+      {books.map((book) => {
         return <Book book={book} />
       })}
     </section>
