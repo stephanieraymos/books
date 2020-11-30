@@ -3,12 +3,6 @@ import ReactDom from 'react-dom';
 import './index.css'
 
 
-//Variables
-const title = 'If Animals Kissed Good Night'
-const author = 'Ann WhitFord Paul'
-const img = 'https://images-na.ssl-images-amazon.com/images/I/817T4J3dzhL._AC_UL200_SR200,200_.jpg'
-
-
 function Booklist() {
   return (
     <section className="booklist">
