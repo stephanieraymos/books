@@ -12,11 +12,12 @@ function Booklist() {
 
 const Book = () => {
   const title = 'If Animals Kissed Good Night'
+  const author = 'Ann WhitFord Paul'
   return (
     <article className="book">
       <img src="https://images-na.ssl-images-amazon.com/images/I/817T4J3dzhL._AC_UL200_SR200,200_.jpg" alt="" />
-      <h1>If Animals Kissed Good Night</h1>
-      <h4>By: Ann WhitFord Paul</h4>
+      <h1>{title}</h1>
+      <h4>By: {author}</h4>
     </article>
   );
 };
