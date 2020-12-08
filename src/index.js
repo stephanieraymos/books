@@ -3,7 +3,7 @@ import ReactDom from "react-dom";
 import "./index.css";
 
 const books = [
-  {
+  { id: 1,
     title: "If Animals Kissed Good Night",
     author: "Ann WhitFord Paul",
     img:
@@ -11,7 +11,7 @@ const books = [
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   },
-  {
+  { id: 2,
     title: "Human",
     author: "Brandon Stanton",
     img: "https://m.media-amazon.com/images/I/81GeAcdMCsL._AC_UY218_.jpg",
@@ -24,7 +24,7 @@ function Booklist() {
   return (
     <section className="booklist">
       {books.map((book) => {
-        return <Book book={book} />;
+        return <Book key={book.id} book={book} />;
       })}
     </section>
   );
