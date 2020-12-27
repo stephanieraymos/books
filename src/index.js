@@ -32,8 +32,6 @@ function Booklist() {
 
 const Book = (props) => {
   const { img, title, author, description } = props;
-  //attribute, eventHandler
-  //onClick, onMouseOver
 
   const clickHandler = () => {
     alert('Clicked')
@@ -42,8 +40,11 @@ const Book = (props) => {
   const anotherButt = () => {
     console.log({author})
   }
+  
   return (
-    <article className="book">
+    <article className="book" onMouseOver={() => {
+      console.log(title)
+    }}>
       <img src={img} alt="" />
       <h1 onClick={() => console.log(title)}>{title}</h1>
       <h4>By: {author}</h4>
