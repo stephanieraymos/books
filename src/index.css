@@ -40,3 +40,7 @@ body {
   font-size: 0.75 rem;
   margin-top: 0.5rem;
 }
+
+.book img {
+  width: 150px;
+}
